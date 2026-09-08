@@ -19,25 +19,32 @@ Prototype redesign aplikasi iPusnas untuk eksplorasi pengalaman membaca digital 
 
 Prototype ini menggunakan HTML, CSS, dan JavaScript tanpa build step.
 
-1. Buka `index.html` langsung di browser, atau gunakan Live Server di VS Code.
-2. Jika ingin menggunakan fitur recorder demo, install dependency terlebih dahulu:
+Buka folder aplikasi terlebih dahulu:
+
+```bash
+cd ipusnas-redesign
+```
+
+Kemudian buka `index.html` langsung di browser, atau gunakan Live Server di VS Code.
+
+Jika ingin menggunakan fitur recorder demo, install dependency dari folder aplikasi:
 
 ```bash
 npm install
 ```
 
-## Struktur File
+## Struktur Repository
 
-- `index.html` - halaman utama dan seluruh view prototype
-- `style.css` - layout, komponen, responsive styling, dan tema gelap
-- `script.js` - navigasi halaman, carousel, filter, tab, dan pengaturan tema
-- `ebook-gadis-kretek.html` - konten ebook reader prototype
-- `record-demo.js` - script Playwright untuk merekam demo aplikasi
-- `package.json` - dependency untuk recorder demo
+- `ipusnas-redesign/index.html` - halaman utama dan seluruh view prototype
+- `ipusnas-redesign/style.css` - layout, komponen, responsive styling, dan tema gelap
+- `ipusnas-redesign/script.js` - navigasi halaman, carousel, filter, tab, dan pengaturan tema
+- `ipusnas-redesign/ebook-gadis-kretek.html` - konten ebook reader prototype
+- `ipusnas-redesign/record-demo.js` - script Playwright untuk merekam demo aplikasi
+- `ipusnas-redesign/package.json` - dependency untuk recorder demo
 
 ## Demo Video
 
-Video demo dibuat dalam format WebM dan disimpan di folder `demo-video/`. Folder tersebut di-ignore oleh Git agar file video tidak masuk ke repository.
+Video demo dibuat dalam format WebM dan disimpan di folder `ipusnas-redesign/demo-video/`. Folder tersebut di-ignore oleh Git agar file video tidak masuk ke repository.
 
 ## Repository
 
