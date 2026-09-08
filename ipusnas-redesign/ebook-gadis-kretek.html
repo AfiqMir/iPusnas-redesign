@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadis Kretek - Reader</title>
+    <style>
+        :root {
+            --ink: #172033;
+            --muted: #6b7280;
+            --paper: #fffdf8;
+            --line: #e8e1d5;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: #e8edf0;
+            font-family: Georgia, 'Times New Roman', serif;
+        }
+        .book-page {
+            width: min(100%, 680px);
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 38px 28px 64px;
+            background: var(--paper);
+            box-shadow: 0 0 18px rgba(15, 23, 42, 0.07);
+        }
+        .book-kicker {
+            margin: 0 0 12px;
+            color: var(--muted);
+            font: 600 11px/1.4 Arial, sans-serif;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+        h1 {
+            margin: 0;
+            font-size: 30px;
+            line-height: 1.1;
+            font-weight: 700;
+        }
+        .author {
+            margin: 8px 0 34px;
+            color: var(--muted);
+            font-size: 16px;
+        }
+        .chapter {
+            margin: 0 0 24px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--line);
+            font-size: 18px;
+            font-weight: 700;
+        }
+        p {
+            margin: 0 0 18px;
+            font-size: 17px;
+            line-height: 1.75;
+        }
+        .notice {
+            margin-top: 36px;
+            padding-top: 14px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font: 12px/1.5 Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <article class="book-page">
+        <p class="book-kicker">Sedang membaca</p>
+        <h1>Gadis Kretek</h1>
+        <p class="author">Ratih Kumala</p>
+        <h2 class="chapter">Bab 1</h2>
+        <p>Di antara aroma tembakau dan suara kota yang mulai ramai, sebuah kisah lama kembali membuka pintunya. Kenangan tentang keluarga, pilihan, dan jejak yang ditinggalkan seseorang tersimpan di balik setiap linting kretek.</p>
+        <p>Ia membaca kembali catatan itu perlahan. Setiap kalimat membawa ingatan pada rumah, pada percakapan yang belum selesai, dan pada nama yang selama ini hanya disebut dalam bisikan.</p>
+        <p>Halaman berikutnya menunggu untuk dibaca. Gunakan gulir halaman ini untuk melanjutkan membaca.</p>
+        <p class="notice">Prototype reader iPusnas. File ebook dapat diganti dengan file resmi yang tersedia di katalog perpustakaan.</p>
+    </article>
+</body>
+</html>
